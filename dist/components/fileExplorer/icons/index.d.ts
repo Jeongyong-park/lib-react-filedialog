@@ -1,0 +1,14 @@
+import { SvgIconProps } from "@material-ui/core";
+import { FileIcon } from "./FileIcon";
+import { DirectoryIcon } from "./DirectoryIcon";
+declare const FolderYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderMusicYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderDocumentsYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderRecentYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderPicturesYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderVideoYellow: (props: SvgIconProps) => JSX.Element;
+declare const FolderHomeRed: (props: SvgIconProps) => JSX.Element;
+declare const FolderMusicGreen: (props: SvgIconProps) => JSX.Element;
+declare const FolderPicturesBlue: (props: SvgIconProps) => JSX.Element;
+declare const FolderVideoPurple: (props: SvgIconProps) => JSX.Element;
+export { FolderYellow, FolderDocumentsYellow, FolderRecentYellow, FolderMusicYellow, FolderPicturesYellow, FolderVideoYellow, FolderHomeRed, FolderMusicGreen, FolderPicturesBlue, FolderVideoPurple, DirectoryIcon, FileIcon };
